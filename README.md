@@ -1,4 +1,4 @@
-# PuppyLove
+# PuppyLove: React Full-Stack Application
 
 ![Project license badge](https://img.shields.io/badge/license-MIT-brightgreen)
 
