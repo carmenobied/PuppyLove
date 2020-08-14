@@ -41,7 +41,7 @@ Pull requests are welcome. Please use the [Contributor Covenant Code of Conduct]
 The team consists of: • Carmen Obied (carmenobied), • Alek Valencia (alek2535), • Pierre André Lowenstein (abbotkinneydude)
 
 ## License 
-[MIT](https://github.com/carmenobied/Workout-Tracker/blob/master/LICENSE) | Copyright © 2020
+[MIT](https://github.com/carmenobied/React-PuppyLove/blob/master/LICENSE) | Copyright © 2020
 
 ## Tests 
 There are currently no tests for this project.
