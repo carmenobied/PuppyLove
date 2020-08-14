@@ -8,41 +8,16 @@ const Nav = () => {
   return (
     <ul className="nav nav-tabs">
       <li className="nav-item">
-        <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
-          Home
-        </Link>
+        <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>Pupster</Link>
       </li>
       <li className="nav-item">
-        <Link
-          to="/about"
-          className={location.pathname === "/about" ? "nav-link active" : "nav-link"}
-        >
-          About
-        </Link>
+        <Link to="/about" className={location.pathname === "/about" ? "nav-link active" : "nav-link"}>About</Link>
       </li>
       <li className="nav-item">
-        <Link
-          to="/blog"
-          className={location.pathname === "/blog" ? "nav-link active" : "nav-link"}
-        >
-          Blog
-        </Link>
+        <Link to="/discover" className={location.pathname === "/discover" ? "nav-link active" : "nav-link"}>Discover</Link>
       </li>
       <li className="nav-item">
-        <Link
-          to="/contact"
-          className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}
-        >
-          Contact
-        </Link>
-      </li>
-      <li className="nav-item">
-        <Link
-          to="/contact/learn"
-          className={location.pathname === "/contact/learn" ? "nav-link active" : "nav-link"}
-        >
-          Learn
-        </Link>
+        <Link to="/search" className={location.pathname === "/search" ? "nav-link active" : "nav-link"}>Search</Link>
       </li>
     </ul>
   );
